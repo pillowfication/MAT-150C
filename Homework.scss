@@ -1,0 +1,49 @@
+.homework {
+  h1 {
+    font-size: 1.1rem;
+  }
+
+  p {
+    margin-bottom: 0.5rem;
+  }
+
+  .header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  :global(ol.base) {
+    counter-reset: list;
+    & > li {
+      list-style: none;
+      position: relative;
+      margin-bottom: 2rem;
+    }
+    & > li::before {
+      display: block;
+      position: relative;
+      left: -1.4em;
+      width: 0;
+      height: 0;
+      counter-increment: list;
+      content: counter(list) ". ";
+    }
+  }
+  :global(ol.letters) {
+    counter-reset: list;
+    margin-left: 1.5rem;
+    & > li {
+      list-style: none;
+      position: relative;
+    }
+    & > li::before {
+      display: block;
+      position: relative;
+      left: -1.75rem;
+      width: 0;
+      height: 0;
+      counter-increment: list;
+      content: "(" counter(list, lower-alpha) ") ";
+    }
+  }
+}

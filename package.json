@@ -1,0 +1,50 @@
+{
+  "name": "MAT-150C",
+  "version": "0.0.0",
+  "description": "https://github.com/pillowfication/MAT-150C",
+  "main": "server.js",
+  "homepage": "https://github.com/pillowfication/MAT-150C",
+  "author": {
+    "name": "Markus Tran",
+    "email": "thebluepillow@gmail.com",
+    "url": "http://pillowfication.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pillowfication/MAT-150C"
+  },
+  "bugs": {
+    "url": "https://github.com/pillowfication/MAT-150C/issues"
+  },
+  "scripts": {
+    "build": "node ./node_modules/webpack/bin/webpack.js --config webpack.config.js --progress"
+  },
+  "dependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-react": "^7.9.4",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.1.0",
+    "copy-webpack-plugin": "^5.1.1",
+    "css-loader": "^3.4.2",
+    "express": "^4.17.1",
+    "foundation-sites": "^6.6.2",
+    "html-webpack-plugin": "^4.0.4",
+    "loader": "^2.1.1",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.13.1",
+    "normalize.css": "^8.0.1",
+    "pug": "^2.0.4",
+    "pug-loader": "^2.4.0",
+    "raw": "^0.1.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.1.2",
+    "sass-loader": "^8.0.2",
+    "standard": "^14.3.3",
+    "url-loader": "^4.0.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  },
+  "license": "MIT"
+}
