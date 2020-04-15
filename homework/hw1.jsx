@@ -77,7 +77,7 @@ class HW1 extends Component {
               <li>
                 <p>Let $x \in IJ$ and {'$x = \\sum_{i=1}^n f_ig_i$'}. Since $I$ is an ideal and $f_i \in I$, then $f_ig_i \in I$. This means that $x$ is a sum of elements in $I$, and so $x \in I$. By a similar argument, $x \in J$, and altogether $x \in I \cap J$.</p>
               </li>
-              <li>Let {'$R = \\Bbb{R}[x]$'}, and let $I = J = (x^2)$ be the ideal consisting of polynomials with degree at least $2$. Then $I \cap J = (x^2)$, but $IJ = (x^4)$, the ideal of polynomials with degree at least $4$.</li>
+              <li>Let {'$R = \\Bbb{R}[x]$'}, and let $I = J = (x^2)$ be the ideal consisting of polynomials where every term has degree at least $2$. Then $I \cap J = (x^2)$, but $IJ = (x^4)$, the ideal of polynomials where every term has degree at least $4$.</li>
             </ol>
           </li>
           <li>
