@@ -7,14 +7,16 @@ import HW1 from './homework/hw1.jsx'
 import HW2 from './homework/hw2.jsx'
 import HW4 from './homework/hw4.jsx'
 import HW5 from './homework/hw5.jsx'
-// import P from './phy9a/phys_disc5.jsx'
+import HW6 from './homework/hw6.jsx'
+import P from './phy9a/phys_disc6.jsx'
 
 const routes = [
   { index: 1, component: HW1 },
   { index: 2, component: HW2 },
   { index: 4, component: HW4 },
   { index: 5, component: HW5 },
-  // { index: 'asdf', component: P }
+  { index: 6, component: HW6 },
+  { index: 'asdf', component: P }
 ]
 
 class Home extends Component {
